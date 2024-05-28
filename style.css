@@ -1,1 +1,67 @@
 
+body {
+    margin: 0;
+    background: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+article.card-pager {
+
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    background: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+}
+
+ h1 {
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0;
+    justify-content: center;
+    padding: 1rem 1.6rem;
+}
+ 
+h3 {
+    color: rgb(170, 170, 170);
+    display: flex;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 3rem;
+}
+
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    width: .5rem;
+    height: .5rem;
+    background-color: rgba(0,0,0,.4);
+    margin: .5rem;
+    border-radius: 999rem;
+}
+
+.card-pager footer a.activated {
+    background: black;
+}
